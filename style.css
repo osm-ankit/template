@@ -1,0 +1,66 @@
+html,body {
+     margin:100px;
+    /* padding: 0; */
+    background-color: #1b1d20;
+    color: aliceblue;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.fa {
+ padding: 25px;
+ /* width: 100p; */
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+img {
+    margin: 5%;
+   height:40vh;
+   width: 40vh;
+   border-radius: 25px;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+}
+.click{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+#a,#b,#c{
+    border: 1px solid white;
+    margin: 5px;
+    /* padding: 1px; */
+}
+.menu-btn {
+    /* background-color: none;  */
+    color: black;  
+    padding: 10px;  
+    font-size: 12px;  
+}
+.menu {
+    display: inline-block;  
+    position: relative  
+}
+
+.menu-item {
+    position: absolute;  
+    background-color: lightgrey;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1; 
+}
+
+.menu-item:hover {
+
+}
+
